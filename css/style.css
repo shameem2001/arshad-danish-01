@@ -1,0 +1,173 @@
+body {
+  background-color: #eeeeee;
+}
+
+.navbar {
+  background-color: #542e71;
+}
+
+.nav-item.cont a {
+  color: #e1e5ea !important;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+}
+
+.pullDown a:before {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  top: 0px;
+  content: "";
+  background: #fff;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.pullDown a:hover:before {
+  height: 100%;
+}
+
+/* .................... */
+
+.home {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.home img {
+  width: 500px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  color: #907fa4;
+}
+
+.home p {
+  max-width: 400px;
+}
+
+/* .................... */
+
+.intro {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.intro img {
+  width: 300px;
+}
+
+.intro-box {
+  max-width: 500px;
+}
+
+.intro-box h2 {
+  font-size: 2.5rem;
+  color: #907fa4;
+}
+
+/* .................... */
+
+.adventures {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.adventures h2 {
+  margin-bottom: 75px;
+  font-size: 2.5rem;
+  color: #907fa4;
+}
+
+.adventures .story {
+  max-width: 300px;
+}
+
+.adventures .story img {
+  width: 300px;
+}
+
+.adventures .story h3 {
+  font-size: 20px;
+  color: #245471;
+}
+
+.adventures .story .date {
+  color: #f78259;
+}
+
+/* .................... */
+
+.tips {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tips h2 {
+  margin-bottom: 75px;
+  font-size: 2.5rem;
+  color: #907fa4;
+}
+
+.tip-box {
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.tip-box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tip-box h3 {
+  font-size: 20px;
+  color: #245471;
+}
+
+.tip-box p {
+  padding: 5px 20px;
+  display: inline-block;
+  background-color: #f37121;
+  color: white;
+}
+
+/* .................... */
+
+.join {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.join input {
+  max-width: 300px;
+  float: left;
+  margin-right: 2rem;
+}
+
+/* .................... */
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+}
+
+.footer .copyright {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer .social-media {
+  float: right;
+}
+
+.footer .social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
