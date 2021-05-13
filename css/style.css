@@ -171,3 +171,20 @@ body {
   margin: 0 10px;
   text-decoration: none;
 }
+
+.btn-connect {
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+  color: white;
+  background: #65427f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-connect:hover {
+  background: #542e71;
+  text-decoration: none;
+}
