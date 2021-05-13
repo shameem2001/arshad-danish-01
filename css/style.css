@@ -6,30 +6,6 @@ body {
   background-color: #542e71;
 }
 
-.nav-item.cont a {
-  color: #e1e5ea !important;
-  margin: 0px 10px;
-  padding: 10px 10px;
-  position: relative;
-  z-index: 0;
-}
-
-.pullDown a:before {
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  left: 0px;
-  top: 0px;
-  content: "";
-  background: #fff;
-  opacity: 0.3;
-  transition: all 0.3s;
-}
-
-.pullDown a:hover:before {
-  height: 100%;
-}
-
 /* .................... */
 
 .home {
@@ -143,6 +119,10 @@ body {
   padding-bottom: 50px;
 }
 
+.join h2 {
+  color: #907fa4;
+}
+
 .join input {
   max-width: 300px;
   float: left;
@@ -170,6 +150,32 @@ body {
   display: inline-block;
   margin: 0 10px;
   text-decoration: none;
+}
+
+/* ............... */
+
+.nav-item.cont a {
+  color: #e1e5ea !important;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+}
+
+.pullDown a:before {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  top: 0px;
+  content: "";
+  background: #fff;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.pullDown a:hover:before {
+  height: 100%;
 }
 
 .btn-connect {
